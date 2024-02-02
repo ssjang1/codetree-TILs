@@ -1,2 +1,2 @@
-a,b=int(input()).split()
-print(a*b)
+a,b=input().split()
+print(eval(f'{a}*{b}'))
