@@ -1,6 +1,6 @@
 f = input()
-a = int(input())
-b = int(input())
+a = float(input())
+b = float(input())
 
 print(f)
 print(round(a,2))
