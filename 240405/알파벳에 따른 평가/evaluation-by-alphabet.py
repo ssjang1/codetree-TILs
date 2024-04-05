@@ -1,4 +1,4 @@
-word = input().super()
+word = input().upper()
 
 if word == 'S':
     result = 'Superior'
