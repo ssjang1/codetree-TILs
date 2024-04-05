@@ -1,10 +1,10 @@
-a,b,c = map(int,input().split(' '))
+a, b, c = map(int, input().split())
 
-min = a
+min_value = a
 
-if b<min:
-    min = b
-if c<min:
-    min = c
+if b < min_value:
+    min_value = b
+if c < min_value:
+    min_value = c
 
-print(min)
+print(min_value)
