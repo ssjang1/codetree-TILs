@@ -1,4 +1,4 @@
-a,b,c = map(int, input().split(' '))
+a,b,c = map(int, input().split())
 
 maximum = -10000
 if a> maximum:
