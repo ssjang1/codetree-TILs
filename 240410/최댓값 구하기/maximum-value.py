@@ -1,6 +1,6 @@
 a,b,c = map(int, input().split(' '))
 
-maximum = 0
+maximum = -101
 if a> maximum:
     maximum = a
 if b> maximum:
