@@ -4,4 +4,4 @@ for i in range(2*n+1):
     if i%2 ==0:
         print(' '.join('*'*(2*n+1)))
     else:
-        print('   '.join('*'*(2*n-2)))
+        print('   '.join('*'*(n+1)))
