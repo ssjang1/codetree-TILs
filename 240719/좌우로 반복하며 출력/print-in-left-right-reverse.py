@@ -7,5 +7,5 @@ for i in range(n):
         print()
     else:
         for j in range(n):
-            print(4-j,end='')
+            print(n-j,end='')
         print()
