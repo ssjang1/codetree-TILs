@@ -1,3 +1,4 @@
+n = int(input())
 a = list(map(int,input().strip().split(' ')))
 
 min_v = a[0]
