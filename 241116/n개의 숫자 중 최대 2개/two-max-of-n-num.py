@@ -1,6 +1,6 @@
 n = int(input())
 a = list(map(int,input().strip().split(' ')))
 
-b = a.sort(reverse=True)
+b = sorted(a,reverse=True)
 
 print(b[0],b[1],end=" ")
