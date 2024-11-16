@@ -1,5 +1,5 @@
 n,q = map(int,input().split(' '))
-wonso = list(map(int,input().split(' ')))
+wonso = list(map(int,input().strip().split(' ')))
 
 for i in range(q):
     line = list(map(int,input().split(' ')))
