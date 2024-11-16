@@ -1,7 +1,7 @@
 n1,n2=map(int,input().split(' '))
 
-a = list(map(int,input().split(' ')))
-b = list(map(int,input().split(' ')))
+a = list(map(int,input().strip().split(' ')))
+b = list(map(int,input().strip().split(' ')))
 
 indices = [i for i, value in enumerate(a) if value == b[0]]
 
