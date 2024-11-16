@@ -1,6 +1,6 @@
 a,b = map(int,input().split(' '))
 check = []
-while a >=1:
+while a >=2:
     a=a//b
     remain = a%b
     check.append(remain)
