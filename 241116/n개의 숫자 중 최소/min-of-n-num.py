@@ -1,3 +1,3 @@
 a = list(map(int,input().strip().split(' ')))
 
-print(a.count(min(a)))
+print(min(a), a.count(min(a)),end=' ')
