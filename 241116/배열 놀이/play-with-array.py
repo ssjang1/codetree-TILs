@@ -13,3 +13,4 @@ for i in range(q):
     elif line[0] ==3:
         for i in range(line[1]-1,line[2]):
             print(wonso[i],end=' ')
+        print()
