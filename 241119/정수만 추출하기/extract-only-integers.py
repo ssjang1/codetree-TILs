@@ -1,4 +1,4 @@
-a,b = input().split(' ')
+a,b = input().strip().split(' ')
 
 A = ''
 B = ''
