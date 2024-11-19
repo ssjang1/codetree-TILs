@@ -11,5 +11,5 @@ for i in range(q):
         result = ''.join(check)
         print(result)
     elif a=='2':
-        result = s.replace(b,c)
-        print(result)
+        s = s.replace(b,c)
+        print(s)
