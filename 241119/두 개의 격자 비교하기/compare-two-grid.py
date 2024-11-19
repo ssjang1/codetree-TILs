@@ -9,7 +9,7 @@ for _ in range(n):
     line = list(map(int,input().strip().split(' ')))
     arr2.append(line)
 
-zero_arr = [[0 for _ in range(n)] for _ in range(m)]
+zero_arr = [[0 for _ in range(m)] for _ in range(n)]
 
 for i in range(n):
     for j in range(m):
