@@ -7,9 +7,13 @@ for i in range(q):
         b = int(b)
         c = int(c)
         check = list(s)
-        check[b-1], check[c-1] = check[c-1], check[b-1]
+        char1 = check[b-1]
+        char2 = check[c-1]
+        check[b-1] = char2 
+        check[c-1] = char1
+        
         result = ''.join(check)
         print(result)
     elif a=='2':
-        s = s.replace(b,c)
-        print(s)
+        result = s.replace(b,c)
+        print(result)
