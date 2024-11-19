@@ -1,3 +1,3 @@
 a,b = input().split(' ')
 
-print(ord(a),' ',chr(int(b)))
+print(ord(a),chr(int(b)),end=' ')
