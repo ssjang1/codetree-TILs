@@ -5,4 +5,4 @@ def hap(n):
     return hap//10
 
 n= int(input())
-print(n)
+print(hap(n))
