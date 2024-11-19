@@ -6,7 +6,7 @@ def number_suare(n):
         for j in range(n):
             print(start,end=' ')
             if start ==9:
-                start==0
+                start=0
             start +=1
         print()
 number_suare(n)
