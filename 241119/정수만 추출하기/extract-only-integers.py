@@ -4,14 +4,14 @@ A = ''
 B = ''
 
 for i in a:
-    if a.isdigit():
-        A +=a
+    if i.isdigit():
+        A += i
     else:
         break
 
 for i in b:
-    if b.isdigit():
-        B +=b
+    if i.isdigit():
+        B += i
     else:
         break
 
