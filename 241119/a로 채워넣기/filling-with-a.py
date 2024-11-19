@@ -1,8 +1,9 @@
 line1 = input()
 
-length = len(line1)
+a = list(line1)
 
-result = ''
+a[1] ='a'
+a[-2] ='a'
 
-result += line1[0]
-result += 'a'*length-1
+answer = ''.join(a)
+print(answer)
