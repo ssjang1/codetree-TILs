@@ -5,3 +5,4 @@ def make_square(n,m):
         print()
 
 n,m = map(int,input().split(' '))
+make_square(n,m)
