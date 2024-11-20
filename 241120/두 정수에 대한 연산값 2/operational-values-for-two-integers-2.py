@@ -9,5 +9,5 @@ def answer(a,b):
         a+=10
     return a,b
 
-answer(a,b)
+a,b = answer(a,b)
 print(a,b,end=' ')
