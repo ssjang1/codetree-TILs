@@ -16,5 +16,7 @@ def check(M,D):
             print("Yes")
         else:
             print("No")
+    else:
+        print("No")
 
 check(M,D)
