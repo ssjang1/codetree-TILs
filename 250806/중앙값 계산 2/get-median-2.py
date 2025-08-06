@@ -5,4 +5,7 @@ arr = list(map(int, input().split()))
 
 for i in range(len(arr)):
     if i%2==0:
-        print(arr[i//2], end=' ')
+        if i!=n-1 or i !=n-2:
+            print(arr[i//2], end=' ')
+        else:
+            print(arr[i//2])
