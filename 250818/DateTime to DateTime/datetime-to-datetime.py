@@ -5,4 +5,7 @@ a, b, c = map(int, input().split())
 m_sum = a * 24 * 60 + b *60 + c
 m_standard = 11 * 24 * 60 + 11 * 60 + 11
 
-print(m_sum-m_standard)
+if m_sum > m_standard:
+    print(m_sum-m_standard)
+else:
+    print(-1)
