@@ -27,7 +27,7 @@ g_d = day2 - day1
 
 cnt = 0
 for i in range(day1, day2+1):
-    if (i-1) % 7 == day_of_week.index(A):
+    if i % 7 == day_of_week.index(A) + 1:
         cnt += 1
 
 print(cnt)
