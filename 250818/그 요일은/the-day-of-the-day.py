@@ -20,7 +20,14 @@ day2 = how_many_days(m2, d2)
 g_d = day2 - day1
 
 # print(day_of_week.index(A))
-if g_d % 7 > day_of_week.index(A) + 1:
-    print(g_d//7 + 1)
-else:
-    print(g_d//7)
+# if g_d % 7 >= day_of_week.index(A) + 1:
+#     print(g_d//7 + 1)
+# else:
+#     print(g_d//7)
+
+cnt = 0
+for i in range(day1, day2+1):
+    if i % 7 == day_of_week.index(A):
+        cnt += 1
+
+print(cnt)
