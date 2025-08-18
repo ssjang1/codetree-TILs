@@ -25,9 +25,11 @@ g_d = day2 - day1
 # else:
 #     print(g_d//7)
 
+a_idx = day_of_week.index(A)
+
 cnt = 0
-for i in range(day1, day2+1):
-    if i % 7 == day_of_week.index(A) + 1:
+for offset in range(day2 - day1 + 1):
+    if (a_idx + offset) % 7 == a_idx:
         cnt += 1
 
 print(cnt)
