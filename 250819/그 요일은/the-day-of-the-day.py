@@ -29,7 +29,7 @@ a_idx = day_of_week.index(A)
 
 cnt = 0
 for i in range(g_d+ 1):
-    if (a_idx + i) % 7 == a_idx:
+    if i % 7 == a_idx:
         cnt += 1
 
 print(cnt)
